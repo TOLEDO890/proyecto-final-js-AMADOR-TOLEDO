@@ -1,0 +1,13 @@
+body {
+    background-image: url(/assets/img/dolares-background.jpg);
+}
+
+h1 {
+    color: gold;
+}
+h2 {
+  color:  gold;
+}
+#seccion { 
+    background-color: gold;
+}
