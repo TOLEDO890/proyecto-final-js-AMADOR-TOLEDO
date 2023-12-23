@@ -2,7 +2,7 @@
 async function cargarOpcionesMoneda() {
   try {
     const apiKey = '5392cd99cef42c11967db405';
-    const opcionesUrl = `https://thingproxy.freeboard.io/fetch/https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
+    const opcionesUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
 
     const response = await fetch(opcionesUrl);
 
