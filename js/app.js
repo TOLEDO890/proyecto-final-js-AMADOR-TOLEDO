@@ -47,7 +47,7 @@ async function convertirMoneda() {
     const monedaDestino = document.getElementById('monedaDestino').value;
     const apiKey = '5392cd99cef42c11967db405';
 
-    const conversionUrl = `https://thingproxy.freeboard.io/fetch/https://v6.exchangerate-api.com/v6/${apiKey}/latest/${monedaOrigen}`;
+    const conversionUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${monedaOrigen}`;
     const conversionResponse = await fetch(conversionUrl);
 
     if (!conversionResponse.ok) {
