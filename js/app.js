@@ -64,7 +64,9 @@ async function cargarOpcionesMoneda() {
       console.error(`Error: ${error.message}`);
     }
   }
+
   
+ 
   // Al cargar la página, carga las opciones de moneda
   document.addEventListener('DOMContentLoaded', cargarOpcionesMoneda);
   
