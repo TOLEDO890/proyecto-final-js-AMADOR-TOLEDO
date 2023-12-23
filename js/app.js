@@ -2,7 +2,7 @@
 async function cargarOpcionesMoneda() {
   try {
     const apiKey = '5392cd99cef42c11967db405';
-    const opcionesUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
+    const opcionesUrl = `https://anycors.herokuapp.com/https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
 
     const response = await fetch(opcionesUrl);
 
@@ -47,7 +47,7 @@ async function convertirMoneda() {
     const monedaDestino = document.getElementById('monedaDestino').value;
     const apiKey = '5392cd99cef42c11967db405';
 
-    const conversionUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${monedaOrigen}`;
+    const conversionUrl = `https://anycors.herokuapp.com/https://v6.exchangerate-api.com/v6/${apiKey}/latest/${monedaOrigen}`;
     const conversionResponse = await fetch(conversionUrl);
 
     if (!conversionResponse.ok) {
