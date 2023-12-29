@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cambiador de moneda</title>
+    <title>Conversor De Divisas</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="assets/img/favicon-page-divisas.ico" type="image/x-icon">
@@ -25,7 +25,7 @@
             </a>
           </div>
           <div class="col-8">
-              <h1>Convertidor De Monedas</h1>
+              <h1>Conversor De Divisas</h1>
           </div>
       </div>
         </nav>
@@ -66,6 +66,11 @@
               </div>
             </div>
           </section>
+          <section>
+            <div class="bg-dark">
+              <canvas id="miGrafico" width="400" height="300"></canvas>
+            </div>
+          </section>
         </article>
       </main>
     <aside></aside>
@@ -73,6 +78,10 @@
 
     <!-- Script JavaScript externo -->
     <script src="js/app.js"></script>
+ <!-- Incluir Chart.js desde una CDN (Asegúrate de estar conectado a internet) -->
+<script src="/node_modules/chart.js/dist/chart.umd.js"></script>
+
+
   </body>
 </html>
 
